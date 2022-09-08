@@ -1,0 +1,68 @@
+.wrapper {
+  width: 100%;
+  background: #E2EFFF;
+  padding: 2rem 15%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.chatList {
+  margin-bottom: 3rem;
+  padding: 0;
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+.chatList li {
+  display: flex;
+  background: #F7F9FC;
+  margin: 3px 0;
+  padding: 1rem;
+  border-radius: 12px;
+  width: max-content;
+  max-width: 100%;
+  line-height: 1.5;
+}
+
+.chatList li:last-child {
+  background: #F7F9FC;
+}
+
+.triangleWrapper {
+  transform: rotate(25deg);
+  position: absolute;
+  bottom: -10px;
+  right: -12px;
+}
+
+.chatList .triangle {
+  fill: #F7F9FC;
+  stroke: #F7F9FC;
+  stroke-width: 12;
+}
+
+.avatarPane {
+  display: flex;
+  align-items: flex-end;
+}
+
+.avatarPane img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.credit {
+  background: #C3DEFF;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #386BA9;
+  font-size: 0.85rem;
+}

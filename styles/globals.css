@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Public+Sans:wght@400;600;700&display=swap');
+
+:root {
+  --emailLink-bg: #EFF6FF;
+  --emailLink-color: #195ABA;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Public Sans', -apple-system, sans-serif;
+  background: #EFF6FF;
+  line-height: 1.45;
 }
 
 a {
@@ -13,8 +21,12 @@ a {
 
 * {
   box-sizing: border-box;
+  font-smoothing: antialiased;
 }
 
+h2 {
+  font-family: 'Playfair Display';
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

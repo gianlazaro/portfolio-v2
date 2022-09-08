@@ -1,0 +1,41 @@
+.wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  color: #EFF6FF;
+}
+
+.linkList {
+  margin: 0 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  list-style-type: none;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+.linkList li {
+  display: inline-block;
+}
+
+.linkList li:first-child {
+  flex: 1;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.emailLink {
+  background: var(--emailLink-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--emailLink-color);
+  border-radius: 12px;
+  height: 50px;
+  width: 200px;
+}
