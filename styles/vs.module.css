@@ -1,0 +1,24 @@
+
+
+.headerWrapper {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  color: #eff6ff;
+
+}
+
+.container {
+  padding: 0 10%;
+}
+
+.hero {
+  --innerGradientColor: #FED664;
+  --outerGradientColor: #F2B300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: radial-gradient(50% 50% at 50% 50%, var(--innerGradientColor) 0%, var(--outerGradientColor) 100%);
+  text-align: center;
+}

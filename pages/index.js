@@ -34,7 +34,7 @@ export default function Home() {
         <section className={styles.projectSection} id="projects">
           <h2>Projects</h2>
           <div className={styles.projectsWrapper}>
-            <ProjectCard title="Vegetation Station" desc="A plant swapping React Native application" imageUrl="/header-vs-lossless.webp" background="#F2B300"/>
+            <ProjectCard title="Vegetation Station" desc="A plant swapping React Native application" imageUrl="/header-vs-lossless.webp" background="#F2B300" href="/vs"/>
             <ProjectCard title="Soulful" desc="An ecommerce React application" imageUrl="/soulful.webp" background="#D4CCC3"/>
             <ProjectCard title="Atelier" desc="A service-oriented architecture backend" imageUrl="" background="#96DBCE"/>
             <ProjectCard title="Err" desc="A question-and-answer platform for small teams" imageUrl="/err.webp" background="#B4C5D6"/>
