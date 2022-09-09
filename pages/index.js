@@ -19,11 +19,19 @@ export default function Home() {
       </header>
       <div className={styles.container}>
         <section className={styles.aboutme}>
-          <h2>About</h2>
-          <p>Nunc a augue faucibus, vulputate neque vel, ultrices tortor. Sed a aliquet sapien, vitae vulputate libero. Sed nibh justo, tempor euismod luctus nec, vehicula id diam. Sed cursus convallis sem eu elementum. Praesent scelerisque vehicula quam a tempor. Proin bibendum ligula mi, quis dignissim nibh accumsan in. Mauris laoreet tellus sed erat egestas, ultricies interdum quam vulputate.</p>
+            <h2>About</h2>
+            <div className={styles.splitAboutContainer}>
+              <div className={styles.infoPane}>
+                <p>Hello, I'm Gian! I am based in Los Angeles, CA. I am a fast learner and thrive in fast-paced agile work environments. At the moment, I am looking for work or apprenticeship opportunities. I am open to relocate or do remote work.</p>
+                <p>In my free time, I like to travel to hike. I have hiked 12 national parks in 9 states so far! I've been listening podcasts more recently (Crime Junkie and Syntax).</p>
+              </div>
+              <div className={styles.profilePane}>
+                PROFILE
+              </div>
+            </div>
         </section>
 
-        <section className={styles.projectSection}>
+        <section className={styles.projectSection} id="projects">
           <h2>Projects</h2>
           <div className={styles.projectsWrapper}>
             <ProjectCard title="Vegetation Station" desc="A plant swapping React Native application" imageUrl="/header-vs-lossless.webp" background="#F2B300"/>

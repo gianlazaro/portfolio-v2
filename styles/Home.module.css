@@ -44,8 +44,33 @@
   max-width: 1100px;
 }
 
+.splitAboutContainer {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+  margin-right: 0;
+}
+
+.infoPane {
+  background: #E1EFFE;
+  flex: 3;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
+.profilePane {
+  background: #F6F9FC url('https://i.imgur.com/M2acT1z.jpg');
+  background-size: cover;
+  flex: 1;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+}
+
 @media(max-width: 500px) {
   .projectsWrapper {
     gap: 1rem;
+  }
+  .aboutme p {
+    margin: 0;
   }
 }

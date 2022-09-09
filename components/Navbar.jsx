@@ -6,6 +6,8 @@ function Navbar() {
       <ul className={styles.linkList}>
         <li>Gian Lazaro</li>
         <li>about</li>
+        <li><a href="#projects">
+        projects</a></li>
         <li>resume</li>
         <li>
           <a className={styles.emailLink} href="mailto:hello@gianlazaro.com">
