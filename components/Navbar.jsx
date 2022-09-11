@@ -14,9 +14,10 @@ function Navbar() {
       '--emailLink-bg': '#FFF1C8',
       '--emailLink-color': '#3C2C00',
     }
-  }
+  };
+
   return (
-    <nav className={styles.wrapper}>
+    <nav className={styles.wrapper} style={navStyles[pathname]}>
       <ul className={styles.linkList}>
         <li><Link href="/">Gian Lazaro</Link></li>
         <li>about</li>
@@ -24,7 +25,7 @@ function Navbar() {
         projects</a></li>
         <li>resume</li>
         <li>
-          <a className={styles.emailLink} style={navStyles[pathname]} href="mailto:hello@gianlazaro.com">
+          <a className={styles.emailLink} href="mailto:hello@gianlazaro.com">
             hello@gianlazaro.com
           </a>
         </li>

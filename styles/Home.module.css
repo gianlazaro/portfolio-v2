@@ -6,7 +6,10 @@
 }
 
 .container {
+  display: inline-block;
+  width: 100%;
   padding: 0 10%;
+  background: #EFF6FF;
 }
 
 .hero {

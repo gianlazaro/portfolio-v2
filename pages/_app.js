@@ -5,8 +5,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      {console.log(pageProps)}
-      <Component {...pageProps} />
+      <Component {...pageProps}/>
     </Layout>
   )
 }

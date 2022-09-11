@@ -10,7 +10,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Public Sans', -apple-system, sans-serif;
-  background: #EFF6FF;
+  /* background: #EFF6FF; */
+  /* background: var(--bgcolor); */
   line-height: 1.45;
 }
 

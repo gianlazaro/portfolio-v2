@@ -5,11 +5,14 @@
   height: 500px;
   position: relative;
   color: #eff6ff;
-
+  overflow: hidden;
 }
 
 .container {
+  display: inline-block;
+  width: 100%;
   padding: 0 10%;
+  background: #FFF9EA;
 }
 
 .hero {

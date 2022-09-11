@@ -1,6 +1,6 @@
 .wrapper {
   width: 100%;
-  background: #E2EFFF;
+  background: var(--footerWrapper-bg);
   padding: 2rem 15%;
   display: flex;
   justify-content: flex-end;
@@ -20,7 +20,7 @@
 
 .chatList li {
   display: flex;
-  background: #F7F9FC;
+  background: var(--speech-bubbles-bg);
   margin: 3px 0;
   padding: 1rem;
   border-radius: 12px;
@@ -59,6 +59,7 @@
 
 .credit {
   background: #C3DEFF;
+  background: var(--credit-bg);
   height: 75px;
   display: flex;
   justify-content: center;
